@@ -1,0 +1,28 @@
+{
+  "name": "contactorganizer-backend-api",
+  "version": "1.0.0",
+  "description": "project using express for Contact Organizer Backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangandrew2/ContactOrganizer.git"
+  },
+  "author": "Andrew Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangandrew2/ContactOrganizer/issues"
+  },
+  "homepage": "https://github.com/zhangandrew2/ContactOrganizer#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
